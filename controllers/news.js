@@ -1,5 +1,5 @@
 // Get the blog data
-const data = require("../data/news.json");
+const data = require("../data/articles.json");
 
 module.exports = () => {
   // Sort it by date so newest is on top
@@ -8,16 +8,13 @@ module.exports = () => {
 
 function compareFunction(a, b) {
   // If first date is bigger then second
-  if (parseDate(a) > parseDate(b)) {
+  const aDate = Date.parse(a.date);
+  const bDate = Date.parse(b.date);
+  if (aDate > bDate) {
     return -1;
-  } else if (parseDate(a) < parseDate(b)) {
+  } else if (aDate < bDate) {
     return 1;
   } else {
     return 0;
   }
-}
-
-function parseDate(dateStr) {
-  const datum = Date.parse(dateStr);
-  return datum / 1000;
 }

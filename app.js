@@ -4,6 +4,7 @@ const express = require("express");
 const exphbs = require("express-handlebars");
 const app = express();
 const compression = require("compression");
+const pageMeta = require("./data/pageMeta.json");
 
 app.use(compression()); // for gzipping files
 app.use(express.static("public"));
@@ -16,25 +17,29 @@ app.set("view engine", "handlebars");
 
 // Index
 app.get("/", (req, res) => {
-  res.render("index");
+  const meta = pageMeta.find(page => page.slug == ""); // get meta for index page (with slug = "")
+  res.render("index", { meta });
 });
 
 //News (override as data needed)
 app.get("/news", (req, res) => {
-  const data = require("./controllers/news");
-  res.render("news", { data });
+  const meta = pageMeta.find(page => page.slug == "news");
+  const blogItems = require("./controllers/news"); //
+  res.render("news", { blogItems, meta });
 });
 
-//Pages within news
+//Pages within news - article data has individual meta data within for head tag
 app.get("/news/:article", (req, res) => {
   const getArticleData = require("./controllers/article");
-  const data = getArticleData(req.params.article);
-  res.render("article", { data });
+  const meta = getArticleData(req.params.article);
+  res.render("article", { meta });
 });
 
 //Any other page
 app.get("/:page", (req, res) => {
-  res.render(req.params.page);
+  const meta = pageMeta.find(page => page.slug == req.params.page);
+
+  res.render(req.params.page, { meta });
 });
 
 // -----------LISTEN----------------

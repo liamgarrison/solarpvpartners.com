@@ -1,12 +1,14 @@
 this is the news page
 
 <ul class="news-list">
-    {{#each data}}
+    {{#each blogItems}}
     <li>
-        <p class="">{{this.id}}</p>
-        <p class="">{{this.name}}</p>
-        <p class="">{{this.date}}</p>
-        <img src="{{this.featureImage}}" alt="">
+        <p class="">{{ this.id }}</p>
+        <p class="">{{ this.name }}</p>
+        <p class="">{{ this.date }}</p>
+        <p class="">{{ this.html }}</p>
+        <p class="">{{ this.content }}</p>
+        <img src="{{ this.featureImage }}" alt="" />
     </li>
     {{/each}}
 </ul>

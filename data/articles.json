@@ -4,20 +4,26 @@
     "name": "the article",
     "slug": "spar",
     "featureImage": "https://picsum.photos/200/300",
-    "date": "2019-11-02"
+    "date": "01 Jan 2019 00:00:00 GMT",
+    "content": "#this is the markdown",
+    "metaTitle": "This is the title of the blog"
   },
   {
     "id": 2,
     "name": "the article",
     "slug": "dennis",
     "featureImage": "https://picsum.photos/200/300",
-    "date": "2019-10-02"
+    "date": "11 Jan 2019",
+    "content": "#this is the markdown",
+    "metaTitle": "This is the title of the blog"
   },
   {
     "id": 1,
     "name": "the article",
     "slug": "liam",
     "featureImage": "https://picsum.photos/200/300",
-    "date": "2019-09-02"
+    "date": "21 Jan 2019 00:00:00 GMT",
+    "content": "#this is the markdown",
+    "metaTitle": "This is the title of the blog"
   }
 ]
