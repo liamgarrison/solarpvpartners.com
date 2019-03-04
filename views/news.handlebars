@@ -1,14 +1,26 @@
-this is the news page
+<div class="container first-container">
+    <h1>News</h1>
+    <div class="row mt-5">
+        {{#each blogItems}}
+        <div class="col-xs-12 col-sm-6 col-lg-4">
+            <a class="news-card-link" href="news/{{this.slug}}">
+                <div class="card news-card mb-5">
+                    <div class="news-card-image-wrapper">
+                        <img class="" alt="Card image cap" src="{{ this.featureImage }}" alt="" />
+                    </div>
+                    <div class="card-body">
+                        <p class=" news-card-date card-title">{{ this.dateFormatted }}</p>
 
-<ul class="news-list">
-    {{#each blogItems}}
-    <li>
-        <p class="">{{ this.id }}</p>
-        <p class="">{{ this.name }}</p>
-        <p class="">{{ this.date }}</p>
-        <p class="">{{ this.html }}</p>
-        <p class="">{{ this.content }}</p>
-        <img src="{{ this.featureImage }}" alt="" />
-    </li>
-    {{/each}}
-</ul>
+                        <h4 class="card-title">{{ this.name }}</h4>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+
+
+
+
+        {{/each}}
+    </div>
+</div>

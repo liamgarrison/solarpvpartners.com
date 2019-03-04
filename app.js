@@ -38,8 +38,11 @@ app.get("/news/:article", (req, res) => {
 //Any other page
 app.get("/:page", (req, res) => {
   const meta = pageMeta.find(page => page.slug == req.params.page);
-
-  res.render(req.params.page, { meta });
+  if (meta) {
+    res.render(req.params.page, { meta });
+  } else {
+    res.status(404).render("404");
+  }
 });
 
 // -----------LISTEN----------------

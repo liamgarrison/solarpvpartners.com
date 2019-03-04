@@ -3,7 +3,7 @@
     "id": 1,
     "name": "the article",
     "slug": "spar",
-    "featureImage": "https://picsum.photos/200/300",
+    "featureImage": "https://picsum.photos/600/300",
     "date": "01 Jan 2019 00:00:00 GMT",
     "content": "#this is the markdown",
     "metaTitle": "This is the title of the blog"

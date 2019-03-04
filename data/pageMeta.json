@@ -14,5 +14,9 @@
   {
     "pageTitle": "News",
     "slug": "news"
+  },
+  {
+    "pageTitle": "Contact Us",
+    "slug": "contact"
   }
 ]
