@@ -1,10 +1,16 @@
+<div class="featureImage container first-container">
+    <img src="/images/news/{{{meta.featureImage}}}" alt="{{{meta.title}}}" />
+</div>
+
 <div class="container first-container">
 
 
     <div class="row">
         <div class="col">
-            {{{meta.id}}} {{{meta.name}}} {{{meta.slug}}} {{{meta.html}}}{{{meta.dateDescription}}}
-            <img src="{{{meta.featureImage}}}" alt="" />
+            <h4 class="article-date">{{{meta.dateDescription}}}</h4>
+            <h2 class="article-title mt-2">{{{meta.title}}} </h2>
+            <div class="article-content mt-4">{{{meta.html}}}</div>
+
         </div>
     </div>
 

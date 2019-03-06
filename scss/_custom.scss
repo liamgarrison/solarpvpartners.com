@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Lato");
-@import url("https://use.typekit.net/buf5kfj.css"); // adobe fonts
+@import url("https://fonts.googleapis.com/css?family=Lato|Libre Franklin");
 
 // Colours
 $theme-colors: (
@@ -10,9 +9,9 @@ $theme-colors: (
 $black: #393939;
 
 // FONTS
-$font-size-base: 1.1rem;
+$font-size-base: 0.9rem;
 $font-family-base: "Lato";
-$headings-font-family: "Proxima Nova";
+$headings-font-family: "Libre Franklin";
 $headings-font-weight: 800;
 
 $h1-font-size: $font-size-base * 2.5 !default;

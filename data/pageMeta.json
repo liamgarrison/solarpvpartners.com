@@ -1,22 +1,27 @@
 [
   {
-    "pageTitle": "Liam Garrison etc",
-    "slug": "dennis"
-  },
-  {
-    "pageTitle": "Home",
+    "title": "Home",
     "slug": ""
   },
   {
-    "pageTitle": "Products",
-    "slug": "products"
+    "title": "Applications",
+    "slug": "applications"
   },
   {
-    "pageTitle": "News",
-    "slug": "news"
+    "title": "Technologies",
+    "slug": "technologies"
   },
   {
-    "pageTitle": "Contact Us",
+    "title": "About",
+    "slug": "about"
+  },
+
+  {
+    "title": "Contact Us",
     "slug": "contact"
+  },
+  {
+    "title": "News",
+    "slug": "news"
   }
 ]

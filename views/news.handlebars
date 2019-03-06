@@ -1,17 +1,17 @@
-<div class="container first-container">
-    <h1>News</h1>
+<div class="container first-container pt-5">
+    <h1 class="">News</h1>
     <div class="row mt-5">
-        {{#each blogItems}}
-        <div class="col-xs-12 col-sm-6 col-lg-4">
-            <a class="news-card-link" href="news/{{this.slug}}">
+        {{#each newsItems}}
+        <div class="col-sm-12 col-lg-6">
+            <a class="news-card-link" href="/news/{{this.slug}}">
                 <div class="card news-card mb-5">
                     <div class="news-card-image-wrapper">
-                        <img class="" alt="Card image cap" src="{{ this.featureImage }}" alt="" />
+                        <img class="" alt="Card image cap" src="/images/news/{{ this.featureImage }}" alt="" />
                     </div>
                     <div class="card-body">
                         <p class=" news-card-date card-title">{{ this.dateFormatted }}</p>
 
-                        <h4 class="card-title">{{ this.name }}</h4>
+                        <h4 class="card-title">{{ this.title }}</h4>
                     </div>
                 </div>
             </a>
