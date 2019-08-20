@@ -6,25 +6,16 @@ import Post from 'templates/post'
 import Meta from 'components/meta'
 import Layout from 'components/layout'
 
-const BlogIndex = ({ data, location }) => {
-  const posts = get(data, 'remark.posts')
+const HomePage = ({ data, location }) => {
   return (
     <Layout location={location}>
       <Meta site={get(data, 'site.meta')} />
-      {posts.map(({ post }, i) => (
-        <Post
-          data={post}
-          options={{
-            isIndex: true,
-          }}
-          key={i}
-        />
-      ))}
+      <div className="container">This is some text</div>
     </Layout>
   )
 }
 
-export default BlogIndex
+export default HomePage
 
 export const pageQuery = graphql`
   query IndexQuery {
@@ -35,32 +26,6 @@ export const pageQuery = graphql`
         url: siteUrl
         author
         twitter
-        adsense
-      }
-    }
-    remark: allMarkdownRemark(
-      sort: { fields: [frontmatter___date], order: DESC }
-    ) {
-      posts: edges {
-        post: node {
-          html
-          frontmatter {
-            layout
-            title
-            path
-            category
-            tags
-            description
-            date(formatString: "YYYY/MM/DD")
-            image {
-              childImageSharp {
-                fluid(maxWidth: 500) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-          }
-        }
       }
     }
   }

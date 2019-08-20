@@ -17,7 +17,7 @@ export default class HTML extends React.Component {
             rel="apple-touch-icon"
             sizes="180x180"
           />
-          <link href="/img/favicon.ico" rel="icon" type="image/x-icon" />
+          <link href="/img/favicon.png" rel="icon" type="image/x-icon" />
         </head>
         <body>
           <div
@@ -25,10 +25,6 @@ export default class HTML extends React.Component {
             dangerouslySetInnerHTML={{ __html: this.props.body }}
           />
           {this.props.postBodyComponents}
-          <script
-            async
-            src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
-          />
         </body>
       </html>
     )

@@ -5,8 +5,6 @@ import React from 'react'
 import get from 'lodash/get'
 import map from 'lodash/map'
 
-import Adsense from 'components/adsense'
-
 import './style.scss'
 
 const Post = ({ data, options }) => {
@@ -19,7 +17,7 @@ const Post = ({ data, options }) => {
     date,
     image,
   } = data.frontmatter
-  const { isIndex, adsense } = options
+  const { isIndex } = options
   const html = get(data, 'html')
   const isMore = isIndex && !!html.match('<!--more-->')
   const fluid = get(image, 'childImageSharp.fluid')
@@ -50,17 +48,12 @@ const Post = ({ data, options }) => {
           }}
         />
         {isMore ? Button({ path, label: 'MORE', primary: true }) : ''}
-        {getAd(isIndex, adsense)}
       </div>
     </div>
   )
 }
 
 export default Post
-
-const getAd = (isIndex, adsense) => {
-  return !isIndex ? <Adsense clientId={adsense} slotId="" format="auto" /> : ''
-}
 
 const getDescription = body => {
   body = body.replace(/<blockquote>/g, '<blockquote class="blockquote">')
