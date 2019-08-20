@@ -16,8 +16,10 @@ class Layout extends React.Component {
     return (
       <>
         <Meta title={this.props.title} />
-        <Navi {...this.props} />
-        {this.props.children}
+        <div className="page-wrapper">
+          <Navi {...this.props} />
+          {this.props.children}
+        </div>
         <Footer />
       </>
     )
