@@ -1,4 +1,5 @@
 import React from 'react'
+import 'jquery/dist/jquery.min.js'
 
 export default class HTML extends React.Component {
   render() {
