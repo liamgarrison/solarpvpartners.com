@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import logo from '../../images/logo_horizontal.png'
-import 'bootstrap/js/src/collapse.js'
 
 class Navi extends React.Component {
   render() {
