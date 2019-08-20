@@ -10,7 +10,7 @@
 
 // Reassign color vars to semantic color scheme
 $theme-colors: (
-  primary: $blue,
+  primary: $orange,
   secondary: $gray-600,
   success: $green,
   info: $cyan,
@@ -83,4 +83,23 @@ p {
 img {
   margin-bottom: 15px;
   max-width: 100%;
+}
+
+
+// Home page stuff
+
+.home-background {
+  background-size: cover;
+  height: calc(100vh - 66px);
+  h1 {
+    font-size: 50px;
+    margin-bottom: 24px;
+    line-height: 60px;
+    color: $white;
+    font-weight: bold;
+  }
+  p {
+    font-size: 25px;
+    color: $white;
+  }
 }
