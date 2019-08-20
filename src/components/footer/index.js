@@ -4,8 +4,10 @@ import './style.scss'
 
 const Footer = ({ author, title }) => (
   <div className="footer">
-    <div className="container">
-      <p>Copyright text</p>
+    <div className="container py-5">
+      <p className="text-center">
+        © {new Date().getFullYear()} Solar PV Partners Limited
+      </p>
     </div>
   </div>
 )

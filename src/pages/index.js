@@ -1,16 +1,11 @@
-import { graphql, Link } from 'gatsby'
+import { Link } from 'gatsby'
 import React from 'react'
-import get from 'lodash/get'
-
-import Post from 'templates/post'
-import Meta from 'components/meta'
 import Layout from 'components/layout'
 import Background from '../images/home_background.jpg'
 
-const HomePage = ({ data, location }) => {
+const HomePage = () => {
   return (
-    <Layout location={location}>
-      <Meta site={get(data, 'site.meta')} />
+    <Layout title={'Home'}>
       <div
         className="home-background"
         style={{
@@ -35,17 +30,3 @@ const HomePage = ({ data, location }) => {
 }
 
 export default HomePage
-
-export const pageQuery = graphql`
-  query IndexQuery {
-    site {
-      meta: siteMetadata {
-        title
-        description
-        url: siteUrl
-        author
-        twitter
-      }
-    }
-  }
-`

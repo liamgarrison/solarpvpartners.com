@@ -1,8 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatstrap',
-    description: 'Gatsby starter for bootstrap a blog',
-    siteUrl: 'https://gatstrap.netlify.com',
+    title: 'Solar PV Partners',
+    description:
+      'Take control of your energy supply with battery storage and renewable energy',
+    siteUrl: 'https://solarpvpartners.com',
     author: 'jaxx2104',
     twitter: 'jaxx2104',
     adsense: '',
@@ -50,13 +51,14 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Gatstrap',
-        short_name: 'Gatstrap',
-        description: 'Gatsby starter for bootstrap a blog',
-        homepage_url: 'https://gatstrap.netlify.com',
+        name: 'Solar PV Partners',
+        short_name: 'Solar PV Partners',
+        description:
+          'Take control of your energy supply with battery storage and renewable energy',
+        homepage_url: 'https://solarpvpartners.com',
         start_url: '/',
         background_color: '#fff',
-        theme_color: '#673ab7',
+        theme_color: '#fff',
         display: 'standalone',
         icons: [
           {

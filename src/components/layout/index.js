@@ -1,33 +1,25 @@
 import React from 'react'
 import emergence from 'emergence.js'
+import Meta from 'components/meta'
 
 import Navi from 'components/navi'
 import Footer from 'components/footer'
-import { siteMetadata } from '../../../gatsby-config'
 
 import 'modern-normalize/modern-normalize.css'
 import 'prismjs/themes/prism.css'
-import 'scss/gatstrap.scss'
+import 'scss/styles.scss'
 import 'animate.css/animate.css'
 import 'font-awesome/css/font-awesome.css'
 
 class Layout extends React.Component {
-  componentDidMount() {
-    emergence.init()
-  }
-
-  componentDidUpdate() {
-    emergence.init()
-  }
-
   render() {
-    const { children } = this.props
     return (
-      <div>
-        <Navi title={siteMetadata.title} {...this.props} />
-        {children}
-        <Footer title={siteMetadata.title} author={siteMetadata.author} />
-      </div>
+      <>
+        <Meta title={this.props.title} />
+        <Navi {...this.props} />
+        {this.props.children}
+        <Footer />
+      </>
     )
   }
 }
