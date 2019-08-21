@@ -7,7 +7,7 @@ import ProductCard from 'components/ProductCard'
 import StorionSmile5 from '../images/storion_smile_5.png'
 import StorionEcoES5 from '../images/Storion_Eco_ES5.png'
 import Commercial from '../images/commercial_ess.png'
-import Containerised from '../images/containerised.jpg'
+import Containerised from '../images/alpha_container.jpg'
 import Cloud from '../images/product_cloud.png'
 
 const Products = () => {

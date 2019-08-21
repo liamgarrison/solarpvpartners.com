@@ -21,7 +21,10 @@ const Contact = () => {
               </a>
             </p>
             <p>
-              <strong>Tel:</strong> +44 (0)2381 230 230
+              <strong>Mobile:</strong> +44 (0)7785 353 901
+            </p>
+            <p>
+              <strong>Office:</strong> +44 (0)2381 230 230
             </p>
           </div>
           <div className="col-12 col-md-6">
