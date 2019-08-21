@@ -59,6 +59,9 @@ $link-hover-decoration: none !default;
 
 // Fonts
 //
+
+$btn-primary-color: $white;
+
 @import './fonts.scss';
 
 @import 'node_modules/bootstrap/scss/bootstrap.scss';
@@ -93,6 +96,11 @@ h1 {
 h2 {
   font-size: 30px;
   margin-bottom: 30px;
+}
+
+h3 {
+  font-size: 25px;
+  margin-bottom: 25px;
 }
 
 

@@ -3,6 +3,7 @@ import React from 'react'
 import Layout from 'components/layout'
 import CaseStudyCard from 'components/CaseStudyCard'
 import Sparsholt from '../images/sparsholt_college.jpg'
+import Total from '../images/total.png'
 import Winchester from '../images/winchester_simpliphi.jpg'
 import Mexico from '../images/aquion_mexico.jpg'
 import Shuttle from '../images/shuttle.jpg'
@@ -23,7 +24,7 @@ const CaseStudies = () => {
           Sparsholt College has saved over 1,000 tons of CO2 emissions from the use of their Solar PV systems over the past 3 years, the equivalent of planting more than 20,000 trees.`}
         />
         <CaseStudyCard
-          image={Sparsholt}
+          image={Total}
           title={
             'Total Oil Petrol Stations in Nigeria convert to Solar + Storage'
           }
