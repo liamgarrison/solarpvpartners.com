@@ -6,6 +6,9 @@ import IECLogo from '../images/iec_logo.png'
 import ProductCard from 'components/ProductCard'
 import StorionSmile5 from '../images/storion_smile_5.png'
 import StorionEcoES5 from '../images/Storion_Eco_ES5.png'
+import Commercial from '../images/commercial_ess.png'
+import Containerised from '../images/containerised.jpg'
+import Cloud from '../images/product_cloud.png'
 
 const Products = () => {
   return (
@@ -58,7 +61,7 @@ const Products = () => {
           `}
         />
         <ProductCard
-          image={StorionEcoES5}
+          image={Commercial}
           title={'Storion-T30/T50/T100'}
           subtitle={'Commercial, Industrial '}
           specSheet={null}
@@ -76,7 +79,7 @@ const Products = () => {
           `}
         />
         <ProductCard
-          image={StorionEcoES5}
+          image={Containerised}
           title={'Containerised energy storage solutions  '}
           subtitle={'Industrial, Utility, On-Grid and Off-Grid  '}
           specSheet={null}
@@ -104,6 +107,7 @@ Alpha ESS powers Africa's largest solar & energy storage project for a hospital 
             <li>Free Upgrades for Life of System</li>
           </ul>
         </p>
+        <img className="w-100 mb-5" src={Cloud} />
         <h3>Industrial Batteries Regulation</h3>
         <p>
           As a distributor of industrial batteries under the Waste Batteries and

@@ -3,6 +3,9 @@ import React from 'react'
 import Layout from 'components/layout'
 import CaseStudyCard from 'components/CaseStudyCard'
 import Sparsholt from '../images/sparsholt_college.jpg'
+import Winchester from '../images/winchester_simpliphi.jpg'
+import Mexico from '../images/aquion_mexico.jpg'
+import Shuttle from '../images/shuttle.jpg'
 
 const CaseStudies = () => {
   return (
@@ -35,7 +38,7 @@ const CaseStudies = () => {
           `}
         />
         <CaseStudyCard
-          image={Sparsholt}
+          image={Winchester}
           title={
             'Lithium Iron Phosphate Residential Installation Winchester, First SimpliPhi Power UK Installation'
           }
@@ -47,7 +50,7 @@ const CaseStudies = () => {
           LiFePO4 (LFP) Lithium Iron Phosphate batteries are one of the very safest,  long life energy storage solutions.`}
         />
         <CaseStudyCard
-          image={Sparsholt}
+          image={Mexico}
           title={
             'Consultation and Energy Storage Supply Cabo San Lucas , Mexico'
           }
@@ -59,7 +62,7 @@ const CaseStudies = () => {
           Francisco Vargas, Operations Director of Innovacion Solar said, “Our customer wanted the latest and cleanest energy storage system available. We worked with Solar PV Partners to configure the system specifications and are delighted with the performance of the Aquion Aspen batteries. We will now be looking to incorporate Aquion batteries for our projects going forward.”`}
         />
         <CaseStudyCard
-          image={Sparsholt}
+          image={Shuttle}
           title={'Eurotunnel Motorway Sign'}
           subtitle={'Solar + Storage Off-Grid'}
           description={`Aquion Lights the way to Europe!  

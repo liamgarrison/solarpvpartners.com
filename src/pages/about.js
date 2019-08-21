@@ -26,6 +26,7 @@ const About = () => {
           to install safe, non-toxic battery technology solutions with Solar PV
           systems, for both on-grid and off-grid locations.
         </p>
+        <img className="w-100" src={Sparsholt} />
         <p>
           We initially started the journey in 2012 with the goal of providing
           commercial Solar PV systems to Colleges and local governments, which
@@ -43,7 +44,6 @@ const About = () => {
           complete energy storage solution with a UK utility for residential
           applications in 2019.
         </p>
-        <img className="w-100" src={Sparsholt} />
         <p>
           In 2015/2016 Solar PV Partners was the creator, architect, project
           facilitator and project manager for the largest Solar PV installation
