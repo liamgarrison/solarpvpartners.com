@@ -1,15 +1,15 @@
 import { Link } from 'gatsby'
 import React from 'react'
 import Layout from 'components/layout'
-import Mexico from '../images/aquion_mexico_2.png'
+import Dennis from '../images/sparsholt_dennis.png'
 
 const Contact = () => {
   return (
     <Layout title={'Contact'}>
       <div className="container py-5">
+        <h1>Contact Us</h1>
         <div className="row">
           <div className="col-12 col-md-6">
-            <h1>Contact Us</h1>
             <p>
               We would love to discuss your energy requirement needs with you.
               Please get in touch with us using the contact details below:
@@ -25,7 +25,7 @@ const Contact = () => {
             </p>
           </div>
           <div className="col-12 col-md-6">
-            <img src={Mexico} alt="" />
+            <img src={Dennis} alt="" />
           </div>
         </div>
       </div>

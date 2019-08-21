@@ -34,18 +34,23 @@ const Products = () => {
           specSheet={
             'https://www.alpha-ess.com/Upload/Images/20190513095218_219292.pdf'
           }
-          description={`
-          The STORION Smile 5, is the perfect complete energy storage solution for storing excess solar PV generation at home or in a business for self consupmtion. Power storage ranges from 5.7KWhr to 22.4KWhr. A 5kW inverter is included along with    the Alpha Cloud software, which provides remote control of the system and helps       to maximize savings.
-            The 24-hour Alpha Cloud monitoring system via the user-friendly interface demonstrates real-time profit. Other benefits include:
-            * Worry-Free-Safe operation with built-in system protection mechanisms
-            * Prompt response to any problems with remote diagnostics
-            * Local technical support from Alpha engineers
-            * Free Upgrades for Life of Sysstem
-            * Easy to update your system online or via USB dri
-              Prices for SMILE5 start at £3.3k for 5.7kWhr storage, 5kW inverter and Alpha Cloud 
-
-          `}
-        />
+        >
+          <p>
+            The STORION Smile 5, is the perfect complete energy storage solution
+            for storing excess solar PV generation at home or in a business for
+            self consupmtion. Power storage ranges from 5.7KWhr to 22.4KWhr. A
+            5kW inverter is included along with the Alpha Cloud software, which
+            provides remote control of the system and helps to maximize savings.
+            The 24-hour Alpha Cloud monitoring system via the user-friendly
+            interface demonstrates real-time profit. Other benefits include: *
+            Worry-Free-Safe operation with built-in system protection mechanisms
+            * Prompt response to any problems with remote diagnostics * Local
+            technical support from Alpha engineers * Free Upgrades for Life of
+            Sysstem * Easy to update your system online or via USB dri Prices
+            for SMILE5 start at £3.3k for 5.7kWhr storage, 5kW inverter and
+            Alpha Cloud
+          </p>
+        </ProductCard>
         <ProductCard
           image={StorionEcoES5}
           title={'Storion Eco-ES5'}
@@ -54,43 +59,61 @@ const Products = () => {
             'https://www.alpha-ess.com/Upload/Images/20180525095118_228575.pdf'
           }
           description={`
-          Schools, universities, government office buidlings, factories, petrol stations, and other commercial buildings with high levels of energy demand can maximize their energy independence and reduce grid power demand with solar PV and battery storage. Even businesses without solar PV systems can benefit from the ability of batteries to reduce peak power demand and shift grid consumption to off-peak hours.
-
-          AlphaESS provides a one-stop solution for commercial and industrial facilities seeking to save on electricity bills, reduce exposure to rising energy prices, generate additional revenues from renewable energy, and reduce their environmental impacts. AlphaESS's remote monitoring and maintenance platform, the AlphaCloud platform helps customers monitor the system's operating status in real time through web pages or mobile APPs, remotely set various functions, perform remote software upgrades for inverters, EMS and BMS.
- 
+          
           `}
-        />
+        >
+          <p>
+            Schools, universities, government office buidlings, factories,
+            petrol stations, and other commercial buildings with high levels of
+            energy demand can maximize their energy independence and reduce grid
+            power demand with solar PV and battery storage. Even businesses
+            without solar PV systems can benefit from the ability of batteries
+            to reduce peak power demand and shift grid consumption to off-peak
+            hours.
+          </p>
+          <p>
+            AlphaESS provides a one-stop solution for commercial and industrial
+            facilities seeking to save on electricity bills, reduce exposure to
+            rising energy prices, generate additional revenues from renewable
+            energy, and reduce their environmental impacts. AlphaESS's remote
+            monitoring and maintenance platform, the AlphaCloud platform helps
+            customers monitor the system's operating status in real time through
+            web pages or mobile APPs, remotely set various functions, perform
+            remote software upgrades for inverters, EMS and BMS.
+          </p>
+        </ProductCard>
         <ProductCard
           image={Commercial}
           title={'Storion-T30/T50/T100'}
           subtitle={'Commercial, Industrial '}
           specSheet={null}
-          description={`
-          Output	30 / 50 / 100 kW	Max. Capacity	1032.2 kWh
-          Battery	M48112-S and	Inverter Dimensions	1180 x 700 x 1500 mm
-          
-          Cluster Capacity Range	28.7 ~ 1032.2 kWh
-          
-          Inverter Weight	 170kg w/o battery for 30kW
-          520 / 750 kg for 50 / 100 kW combined  with battery
-          
-          
-          DOD	90%,     Certifications	CE, IEC
-          `}
-        />
+        >
+          <p>Output 30 / 50 / 100 kW Max. Capacity 1032.2 kWh</p>
+          <p>Battery M48112-S and Inverter Dimensions 1180 x 700 x 1500 mm</p>
+          <p>Cluster Capacity Range 28.7 ~ 1032.2 kWh</p>
+          <p>
+            Inverter Weight 170kg w/o battery for 30kW 520 / 750 kg for 50 / 100
+            kW combined with battery
+          </p>
+          <p>DOD 90%, Certifications CE, IEC</p>
+        </ProductCard>
         <ProductCard
           image={Containerised}
           title={'Containerised energy storage solutions  '}
           subtitle={'Industrial, Utility, On-Grid and Off-Grid  '}
           specSheet={null}
-          description={`
-          AlphaESS also enable communities and companies with multiple distributed energy resources to share energy with a microgrid. This type of interconnected “Virtual Power Plant” is ideal for areas with no grid access, communities that want to disconnect from the network, or companies that want to provide renewable energy electricity supply.  See press article link below:
-
-Alpha ESS powers Africa's largest solar & energy storage project for a hospital commissioned at FOCO.
-
- 
-          `}
-        />
+        >
+          <p>
+            AlphaESS also enable communities and companies with multiple
+            distributed energy resources to share energy with a microgrid. This
+            type of interconnected “Virtual Power Plant” is ideal for areas with
+            no grid access, communities that want to disconnect from the
+            network, or companies that want to provide renewable energy
+            electricity supply. See press article link below: Alpha ESS powers
+            Africa's largest solar & energy storage project for a hospital
+            commissioned at FOCO.
+          </p>
+        </ProductCard>
         <h2>Alpha Cloud</h2>
         <p>
           AlphaCloud platform provides monitoring of the system's operating

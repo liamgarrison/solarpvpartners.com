@@ -10,7 +10,7 @@ class CaseStudyCard extends React.Component {
         <div className="product-card-content">
           <p className="product-card-title">{this.props.title}</p>
           <p className="product-card-subtitle">{this.props.subtitle}</p>
-          <p className="product-card-description">{this.props.description}</p>
+          <p className="product-card-description">{this.props.children}</p>
           {this.props.specSheet ? (
             <a
               className="btn btn-primary"
