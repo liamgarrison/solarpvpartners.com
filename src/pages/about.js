@@ -110,7 +110,7 @@ const About = () => {
           title={'Liam Garrison'}
           subtitle={'IT and Energy Analyst'}
           description={
-            'Liam is a data analyst who majored in chemistry at Oxford University and has assisted several businesses in improving business processes, including the NHS. He is an ardent photographer, environmentalist and moutain climber.'
+            'Liam is a data analyst who majored in chemistry at Oxford University and has assisted several businesses in improving business processes, including the NHS. He is an ardent photographer, environmentalist and mountain climber.'
           }
           email={''}
         />
