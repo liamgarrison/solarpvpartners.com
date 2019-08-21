@@ -8,7 +8,8 @@ const Footer = ({ author, title }) => (
         © {new Date().getFullYear()} Solar PV Partners Limited
       </p>
       <p className="text-center">
-        Hill View Farm Hensting Lane, Owslebury, Winchester, Hampshire, SO21 1LE
+        Hill View Farm, Hensting Lane, Owslebury, Winchester, Hampshire, SO21
+        1LE
       </p>
     </div>
   </div>

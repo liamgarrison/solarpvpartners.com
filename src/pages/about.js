@@ -7,6 +7,7 @@ import AboutCard from 'components/AboutCard'
 import Dennis from '../images/dennis.jpg'
 import Andy from '../images/andy.png'
 import Liam from '../images/liam.jpeg'
+import BatterySolarWind from '../images/battery_solar_wind.png'
 
 const About = () => {
   return (
@@ -53,6 +54,7 @@ const About = () => {
           in their reduced per kW hour rate of electricity through the Power
           Purchase Agreement arragned by SPVP.
         </p>
+        <img className="w-100" src={BatterySolarWind} />
         <p>
           In 2017, Solar PV Partners installed the first SimpliPhi Power Lithium
           Iron Phosphate LiFePO4 battery/energy storage system in a Winchester,
@@ -101,7 +103,7 @@ const About = () => {
           title={'Andy Rigg'}
           subtitle={'Founder'}
           description={
-            'Andy is one of the orginal founders of Solar PV Partners, a Hampshire farm owner generating almost all energy requirements from solar plus storage and has been involved in sustainbility for over 28 years'
+            'Andy is one of the orginal founders of Solar PV Partners, a Hampshire farm owner generating almost all energy requirements from solar plus storage and has been involved in sustainbility for over 28 years.'
           }
           email={'andrew.rigg@solarpvpartners.com'}
         />

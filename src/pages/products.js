@@ -98,15 +98,14 @@ Alpha ESS powers Africa's largest solar & energy storage project for a hospital 
           of various functions and enables remote software upgrades for
           inverters, EMS and BMS.
         </p>
-        <p className="mb-5">
-          <ul>
-            <li>Safe operation with built-in system protection mechanisms</li>
-            <li>Prompt response to any problems with remote diagnostics</li>
-            <li>Local technical support from Alpha engineers</li>
-            <li>Easy to update online or via USB drive</li>
-            <li>Free Upgrades for Life of System</li>
-          </ul>
-        </p>
+        <p className="mb-5"></p>
+        <ul>
+          <li>Safe operation with built-in system protection mechanisms</li>
+          <li>Prompt response to any problems with remote diagnostics</li>
+          <li>Local technical support from Alpha engineers</li>
+          <li>Easy to update online or via USB drive</li>
+          <li>Free Upgrades for Life of System</li>
+        </ul>
         <img className="w-100 mb-5" src={Cloud} />
         <h3>Industrial Batteries Regulation</h3>
         <p>
