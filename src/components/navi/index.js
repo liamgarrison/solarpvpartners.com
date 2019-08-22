@@ -24,13 +24,13 @@ class Navi extends React.Component {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
-              <a className="nav-link" href="/products">
-                Products
+              <a className="nav-link" href="/solutions">
+                Solutions
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/solutions">
-                Solutions
+              <a className="nav-link" href="/products">
+                Products
               </a>
             </li>
             <li className="nav-item">
