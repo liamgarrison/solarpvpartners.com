@@ -17,8 +17,8 @@ const Products = () => {
         <h1>Our Products</h1>
         <h2>Alpha ESS Storion Systems</h2>
         <p>
-          The Lithium Ferro Phosphate (LFP or LiFePO4) battery systems from
-          Alpha ESS are non-toxic, non-hazardous (no cobalt) and have very high
+          The Lithium Iron Phosphate (LFP or LiFePO4) battery systems from Alpha
+          ESS are non-toxic, non-hazardous (no cobalt) and have very high
           efficiency charge and discharge rates, even in extreme climates.
           Storion Series are an all-in-one energy storage and management system
           for residential, agricultural, industrial and commercial applications.
@@ -38,22 +38,29 @@ const Products = () => {
           <p>
             The STORION Smile 5, is the perfect complete energy storage solution
             for storing excess solar PV generation at home or in a business for
-            self consupmtion. Power storage ranges from 5.7KWhr to 22.4KWhr. A
-            5kW inverter is included along with the Alpha Cloud software, which
+            self consupmtion. Power storage ranges from 5.7kWh to 22.kKWh. A 5kW
+            inverter is included along with the Alpha Cloud software, which
             provides remote control of the system and helps to maximize savings.
             The 24-hour Alpha Cloud monitoring system via the user-friendly
-            interface demonstrates real-time profit. Other benefits include: *
-            Worry-Free-Safe operation with built-in system protection mechanisms
-            * Prompt response to any problems with remote diagnostics * Local
-            technical support from Alpha engineers * Free Upgrades for Life of
-            Sysstem * Easy to update your system online or via USB dri Prices
-            for SMILE5 start at £3.3k for 5.7kWhr storage, 5kW inverter and
-            Alpha Cloud
+            interface demonstrates real-time profit. Other benefits include:
           </p>
+          <ul>
+            <li>
+              Worry-Free-Safe operation with built-in system protection
+              mechanisms
+            </li>
+            <li>Prompt response to any problems with remote diagnostics</li>
+            <li>Local technical support from Alpha engineers</li>
+            <li>Free Upgrades for Life of Sysstem</li>
+            <li>
+              Easy to update your system online or via USB dri Prices for SMILE5
+              start at £3.3k for 5.7kWh storage, 5kW inverter and Alpha Cloud
+            </li>
+          </ul>
         </ProductCard>
         <ProductCard
           image={StorionEcoES5}
-          title={'Storion Eco-ES5'}
+          title={'Storion Eco-S5'}
           subtitle={'Commercial'}
           specSheet={
             'https://www.alpha-ess.com/Upload/Images/20180525095118_228575.pdf'
