@@ -32,7 +32,7 @@ const Products = () => {
           title={'Storion SMILE 5'}
           subtitle={'Residential, Commercial'}
           specSheet={
-            'https://www.alpha-ess.com/Upload/Images/20190513095218_219292.pdf'
+            'https://www.alpha-ess.com/Upload/Images/20190902054742_276149.pdf'
           }
         >
           <p>
