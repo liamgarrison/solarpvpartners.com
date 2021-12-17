@@ -1,7 +1,7 @@
 import { Link } from 'gatsby'
 import React from 'react'
 import Layout from 'components/layout'
-import Background from '../images/home_background.jpg'
+import Background from '../images/home_image_2.jpg'
 
 const HomePage = () => {
   return (
@@ -14,13 +14,10 @@ const HomePage = () => {
       >
         <div className="container h-100">
           <div className="h-100 d-flex flex-column justify-content-center align-items-start">
-            <h1>Take control of your energy supply with Solar PV Partners.</h1>
-            <p>
-              We believe that every organisation can benefit from a more
-              sustainable energy supply.
-            </p>
+            <h1>Take control of your energy costs with Solar PV Partners</h1>
+            <p>We create renewable energy solutions for a sustainable future</p>
             <Link className="btn btn-primary" to={'/solutions'}>
-              View Solutions
+              Global Solutions
             </Link>
           </div>
         </div>
