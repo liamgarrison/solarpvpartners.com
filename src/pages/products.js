@@ -38,7 +38,7 @@ const Products = () => {
           <p>
             The STORION Smile 5, is the perfect complete energy storage solution
             for storing excess solar PV generation at home or in a business for
-            self consupmtion. Power storage ranges from 5.7kWh to 22.8kWh. A 5kW
+            self consumption. Power storage ranges from 5.7kWh to 22.8kWh. A 5kW
             inverter is included along with the Alpha Cloud software, which
             provides remote control of the system and helps to maximize savings.
             The 24-hour Alpha Cloud monitoring system via the user-friendly
@@ -51,7 +51,7 @@ const Products = () => {
             </li>
             <li>Prompt response to any problems with remote diagnostics</li>
             <li>Local technical support from Alpha engineers</li>
-            <li>Free Upgrades for Life of Sysstem</li>
+            <li>Free Upgrades for Life of System</li>
             <li>
               Easy to update your system online or via USB dri Prices for SMILE5
               start at £3.3k for 5.7kWh storage, 5kW inverter and Alpha Cloud

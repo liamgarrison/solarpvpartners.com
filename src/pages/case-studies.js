@@ -31,9 +31,9 @@ const CaseStudies = () => {
           subtitle={
             'Renewable Energy Replaces Diesel Generator Use in October 2018'
           }
-          description={`Nature Grid, was the contracted EPC for installaltions of the Total Petrol Stations project in Nigeria for both Solar PV panels and SimpliPhi Power batteries, which were supplied by Solar PV Partners.  The photo from one of the Petrol Station installations has 14KWhr’s of SimpliPhi batteries.
+          description={`Nature Grid, was the contracted EPC for installations of the Total Petrol Stations project in Nigeria for both Solar PV panels and SimpliPhi Power batteries, which were supplied by Solar PV Partners.  The photo from one of the Petrol Station installations has 14KWhr’s of SimpliPhi batteries.
 
-          Savings of up to 78% were realized with the combinantion of Solar plust Storage from the previously diesel generator powered pertrol stations. Renewable energy has been proven across Africa as a viable replacement to the use of diesel generation and has the additional benefits of significantly reducing carbon emissions, reducing noise and the smell of burning fuel to generate electricity. 
+          Savings of up to 78% were realized with the combination of Solar plus Storage from the previously diesel generator powered petrol stations. Renewable energy has been proven across Africa as a viable replacement to the use of diesel generation and has the additional benefits of significantly reducing carbon emissions, reducing noise and the smell of burning fuel to generate electricity. 
           
           Additionally, the cost of maintenance of diesel generators and frequent replacement requirements makes the Solar + Storage model a very viable     and cost effective alternative.
           `}

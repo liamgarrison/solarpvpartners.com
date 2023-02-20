@@ -19,20 +19,21 @@ const About = () => {
           Solar PV Partners (SPVP) deliver improved financial and environmental
           performance with our partners in the education, energy, farming,
           retail, IT, manufacturing, government and distribution sectors. Our
-          purpose is to improve energy independence and deploy sustatinable,
+          purpose is to improve energy independence and deploy sustainable,
           renewable resources for the improvement of our environment. SPVP
-          partners with companies in the UK/Ireland, Afghanistan, the Carribean,
-          Czech Republic, Estonia, Kenya, Malta, Mexico, Netherlands, Nigeria,
-          Netherlands, Norway, Portugal, Sierra Leone, Zimbabwe, UAE and the USA
-          to install safe, non-toxic battery technology solutions with Solar PV
-          systems, for both on-grid and off-grid locations.
+          partners with companies in the UK/Ireland, Afghanistan, the
+          Carribbean, Czech Republic, Estonia, Kenya, Malta, Mexico,
+          Netherlands, Nigeria, Netherlands, Norway, Portugal, Sierra Leone,
+          Zimbabwe, UAE and the USA to install safe, non-toxic battery
+          technology solutions with Solar PV systems, for both on-grid and
+          off-grid locations.
         </p>
         <img className="w-100" src={Sparsholt} />
         <p>
           We initially started the journey in 2012 with the goal of providing
           commercial Solar PV systems to Colleges and local governments, which
           we started in Hampshire, UK in 2013 with a 100kW system installation
-          at Basingstoke College of Technolgy and then added storage
+          at Basingstoke College of Technology and then added storage
           technologies as part of our renewable energy system solutions. We
           spent nine months researching various battery chemistries and energy
           storage solutions. Energy storage system (ESS) installations began in
@@ -52,7 +53,7 @@ const About = () => {
           Solar PV across 20 different rooftops. Sparsholt College will continue
           to benefit for the next two decades from very significant reductions
           in their reduced per kW hour rate of electricity through the Power
-          Purchase Agreement arragned by SPVP.
+          Purchase Agreement arranged by SPVP.
         </p>
         <img className="w-100" src={BatterySolarWind} />
         <p>
@@ -61,14 +62,14 @@ const About = () => {
           UK home. SimpliPhi Power is one of the most robust, safest, longest
           life, low voltage Lithium battery solutions. The robustness of the
           Simpliphi battery was confirmed in stress testing against thirty other
-          mostly well known battery brands; docuented by the US military in 3
+          mostly well known battery brands; documented by the US military in 3
           day stress tests.
         </p>
         <p>
-          In 2018, SPVP’s subsdiary company shipped Simpliphi batteries to
+          In 2018, SPVP’s subsidiary company shipped Simpliphi batteries to
           Nature Grid in Nigeria for use in Total petrol stations to replace
           diesel generators with Solar + Storage. LiFePo4 (non-cobalt) batteries
-          were selected for their outstanding perfomance in hot climates and
+          were selected for their outstanding performance in hot climates and
           safety.
         </p>
         <p>
@@ -79,7 +80,7 @@ const About = () => {
           solutions in the UK market. Solar PV Partners are now offering energy
           storage technology solutions for grid balancing solutions for Demand
           Side Response (DFR Scheme), STOR, peak shaving, on site consumption of
-          renewables, uninterruped back-up power supply systems and energy
+          renewables, uninterrupted back-up power supply systems and energy
           market brokering. Solar PV Partners are working with partners and
           directly with customers in the UK/Ireland, Europe, Middle East,
           Mexico, the Caribbean, USA and across Africa for a variety of Solar PV
@@ -94,7 +95,7 @@ const About = () => {
           title={'Dennis Garrison'}
           subtitle={'Manging Director'}
           description={
-            'Dennis founded the company with partners in 2012 and has over 10 years experience in environmental technoloiges deployment in a dozen countries. He has extensive experience launching new businesses and numerous technologies Internationally in both the media communications and renewable energy sectors.'
+            'Dennis founded the company with partners in 2012 and has over 10 years experience in environmental technologies deployment in a dozen countries. He has extensive experience launching new businesses and numerous technologies Internationally in both the media communications and renewable energy sectors.'
           }
           email={'dennis.garrison@solarpvpartners.com'}
         />
@@ -103,7 +104,7 @@ const About = () => {
           title={'Andy Rigg'}
           subtitle={'Founder'}
           description={
-            'Andy is one of the orginal founders of Solar PV Partners, a Hampshire farm owner generating almost all energy requirements from solar plus storage and has been involved in sustainbility for over 28 years.'
+            'Andy is one of the original founders of Solar PV Partners, a Hampshire farm owner generating almost all energy requirements from solar plus storage and has been involved in sustainability for over 28 years.'
           }
           email={'andrew.rigg@solarpvpartners.com'}
         />
