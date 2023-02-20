@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 import Layout from 'components/layout'
 import CELogo from '../images/ce_logo.png'

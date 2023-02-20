@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
-import Layout from 'components/layout'
+import Layout from '@/components/layout'
 import Background from '../images/home_background.jpg'
 import ProjectManagement from '../images/project_management.jpg'
 import PeakSolar from '../images/peak_solar.jpg'
@@ -24,7 +24,7 @@ const Solutions = () => {
               which are available for UK, European, African and other
               International projects.{' '}
             </p>
-            <Link href={'/case-studies'} className="btn btn-primary">
+            <Link to={'/case-studies'} className="btn btn-primary">
               View Case Studies
             </Link>
           </div>
