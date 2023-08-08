@@ -21,8 +21,8 @@ const About = () => {
           retail, IT, manufacturing, government and distribution sectors. Our
           purpose is to improve energy independence and deploy sustainable,
           renewable resources for the improvement of our environment. SPVP
-          partners with companies in the UK/Ireland, Afghanistan, the Caribbean,
-          Czech Republic, Estonia, Kenya, Malta, Mexico, Netherlands, Nigeria,
+          partners with companies in the UK/Ireland, the Caribbean, Czech
+          Republic, Estonia, Kenya, Malta, Mexico, Netherlands, Nigeria,
           Netherlands, Norway, Portugal, Sierra Leone, Zimbabwe, UAE and the USA
           to install safe, non-toxic battery technology solutions with Solar PV
           systems, for both on-grid and off-grid locations.
