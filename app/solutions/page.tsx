@@ -61,7 +61,7 @@ const Solutions = () => {
           </h3>
           <p className="mb-4">
             We provide Energy Storage Systems (ESS) for time shifting of Solar
-            PV power generation to when it's actually needed, increasing
+            PV power generation to when it&apos;s actually needed, increasing
             financial benefits.
           </p>
           <Link
@@ -102,8 +102,8 @@ const Solutions = () => {
             Residential Benefits of Solar + Storage
           </h3>
           <p className="mb-4">
-            Managing your home's energy supply, when and how you use it is now
-            possible. Renewable energy generation with Solar plus Storage
+            Managing your home&apos;s energy supply, when and how you use it is
+            now possible. Renewable energy generation with Solar plus Storage
             provides more self consumption and efficient use of power. Also,
             power outages are becoming more frequent and security of supply more
             important. The combination of renewable energy generation and
