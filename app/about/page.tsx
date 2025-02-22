@@ -3,6 +3,10 @@ import AboutCard from "../../components/AboutCard";
 import Image from "next/image";
 import Sparsholt from "../../public/images/sparsholt_college.jpg";
 import BatterySolarWind from "../../public/images/battery_solar_wind.png";
+import Dennis from "../../public/images/dennis.jpg";
+import Andy from "../../public/images/andy.png";
+import Liam from "../../public/images/liam.jpeg";
+
 export const metadata = {
   title: "About | Solar PV Partners",
   description:
@@ -94,7 +98,7 @@ const About = () => {
       </p>
       <h2 className="text-2xl font-bold mb-4 mt-12">Meet the team</h2>
       <AboutCard
-        image={"/images/dennis.jpg"}
+        image={Dennis}
         title={"Dennis Garrison"}
         subtitle={"Manging Director"}
         description={
@@ -102,7 +106,7 @@ const About = () => {
         }
       />
       <AboutCard
-        image={"/images/andy.png"}
+        image={Andy}
         title={"Andy Rigg"}
         subtitle={"Founder"}
         description={
@@ -110,7 +114,7 @@ const About = () => {
         }
       />
       <AboutCard
-        image={"/images/liam.jpeg"}
+        image={Liam}
         title={"Liam Garrison"}
         subtitle={"IT and Energy Analyst"}
         description={

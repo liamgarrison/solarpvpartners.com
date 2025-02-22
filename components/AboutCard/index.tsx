@@ -1,7 +1,8 @@
+import { StaticImport } from "next/dist/shared/lib/get-img-props";
 import Image from "next/image";
 
 interface AboutCardProps {
-  image: string;
+  image: StaticImport;
   title: string;
   subtitle: string;
   description: string;
@@ -18,7 +19,11 @@ export default function AboutCard({
     <div className="bg-white shadow-lg rounded-lg overflow-hidden mb-8">
       <div className="md:flex">
         <div className="md:w-1/3 relative h-64 md:h-auto">
-          <Image src={image} alt={title} className="object-cover" fill />
+          <Image
+            src={image}
+            alt={title}
+            className="object-cover h-full w-full"
+          />
         </div>
         <div className="p-6 md:w-2/3">
           <h3 className="text-2xl font-bold mb-2">{title}</h3>
