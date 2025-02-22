@@ -1,7 +1,8 @@
 import React from "react";
 import Image from "next/image";
+import { StaticImport } from "next/dist/shared/lib/get-img-props";
 interface ProductCardProps {
-  image: string;
+  image: StaticImport;
   title: string;
   subtitle: string;
   specSheet?: string;
@@ -19,11 +20,9 @@ const ProductCard = ({
     <div className="bg-white shadow-md rounded-lg overflow-hidden mb-8 flex p-4 flex-col md:flex-row">
       <div className="relative w-full h-64 md:h-[unset] md:w-[30%] flex-shrink-0">
         <Image
-          className="w-full h-auto object-contain"
+          className="w-full h-full object-contain"
           src={image}
           alt={title}
-          fill
-          unoptimized
         />
       </div>
       <div className="p-6">

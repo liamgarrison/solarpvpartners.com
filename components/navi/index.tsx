@@ -2,7 +2,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-
+import LogoHorizontal from "../../public/images/logo_horizontal.png";
 const Links = ({ className }: { className?: string }) => {
   return (
     <ul
@@ -45,15 +45,9 @@ const Navi: React.FC = () => {
 
   return (
     <nav className="bg-white shadow-sm relative">
-      <div className="flex items-center justify-between pl-6 pr-2 py-2 ">
+      <div className="flex items-center justify-between pl-6 pr-4 py-2 ">
         <Link href="/" className="mb-0">
-          <Image
-            src={"/images/logo_horizontal.png"}
-            alt="Logo"
-            height={44}
-            width={180}
-            unoptimized
-          />
+          <Image src={LogoHorizontal} alt="Logo" className="h-14 w-auto" />
         </Link>
         <button
           className="md:hidden text-gray-700"

@@ -3,6 +3,15 @@ import ProductCard from "../../components/ProductCard";
 import Image from "next/image";
 import MultiSourcePower from "../../public/images/flex-ess.jpg";
 import ProductCloud from "../../public/images/product_cloud.png";
+import FlexESS250 from "../../public/images/flex-ess-250.png";
+import FlexESS500 from "../../public/images/flex-ess-500.png";
+import FlexESS1000 from "../../public/images/flex-ess-1000.png";
+import StorionSmile5 from "../../public/images/storion_smile_5.png";
+import CELogo from "../../public/images/ce_logo.png";
+import IECLogo from "../../public/images/iec_logo.png";
+import StorionEcoES5 from "../../public/images/Storion_Eco_ES5.png";
+import CommercialESS from "../../public/images/commercial_ess.png";
+import AlphaContainer from "../../public/images/alpha_container.jpg";
 
 export const metadata = {
   title: "Products | Solar PV Partners",
@@ -61,7 +70,7 @@ const Products = () => {
       </p>
 
       <ProductCard
-        image={"/images/flex-ess-250.png"}
+        image={FlexESS250}
         title={"Flex-ESS250"}
         subtitle={"The most flexible all-in-one energy storage solution"}
       >
@@ -86,7 +95,7 @@ const Products = () => {
       </ProductCard>
 
       <ProductCard
-        image={"/images/flex-ess-500.png"}
+        image={FlexESS500}
         title={"Flex-ESS500"}
         subtitle={"Engineered for low project overheads"}
       >
@@ -121,7 +130,7 @@ const Products = () => {
       </ProductCard>
 
       <ProductCard
-        image={"/images/flex-ess-1000.png"}
+        image={FlexESS1000}
         title={"Flex-ESS1000"}
         subtitle={"Utility-Scale Modular Storage System"}
       >
@@ -152,27 +161,19 @@ const Products = () => {
         residential, agricultural, industrial and commercial applications.
       </p>
       <div className="flex justify-start gap-4 my-4">
-        <div className="relative w-10 h-10">
-          <Image
-            src={"/images/ce_logo.png"}
-            alt="CE Logo"
-            fill
-            className="object-contain"
-            unoptimized
-          />
-        </div>
-        <div className="relative w-10 h-10">
-          <Image
-            src={"/images/iec_logo.png"}
-            alt="IEC Logo"
-            fill
-            className="object-contain"
-            unoptimized
-          />
-        </div>
+        <Image
+          src={CELogo}
+          alt="CE Logo"
+          className="object-contain h-10 w-10"
+        />
+        <Image
+          src={IECLogo}
+          alt="IEC Logo"
+          className="object-contain h-10 w-10"
+        />
       </div>
       <ProductCard
-        image={"/images/storion_smile_5.png"}
+        image={StorionSmile5}
         title={"Storion SMILE 5"}
         subtitle={"Residential, Commercial"}
         specSheet={
@@ -202,7 +203,7 @@ const Products = () => {
         </ul>
       </ProductCard>
       <ProductCard
-        image={"/images/storion_eco_es5.png"}
+        image={StorionEcoES5}
         title={"Storion Eco-S5"}
         subtitle={"Commercial"}
         specSheet={
@@ -229,7 +230,7 @@ const Products = () => {
         </p>
       </ProductCard>
       <ProductCard
-        image={"/images/commercial_ess.png"}
+        image={CommercialESS}
         title={"Storion-T30/T50/T100"}
         subtitle={"Commercial, Industrial "}
       >
@@ -245,7 +246,7 @@ const Products = () => {
         </ul>
       </ProductCard>
       <ProductCard
-        image={"/images/alpha_container.jpg"}
+        image={AlphaContainer}
         title={"Containerised energy storage solutions  "}
         subtitle={"Industrial, Utility, On-Grid and Off-Grid  "}
       >

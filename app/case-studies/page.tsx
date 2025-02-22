@@ -1,5 +1,10 @@
 import React from "react";
 import CaseStudyCard from "../../components/CaseStudyCard";
+import Sparsholt from "../../public/images/sparsholt_college.jpg";
+import Total from "../../public/images/total.png";
+import WinchesterSimpliPhi from "../../public/images/winchester_simpliphi.jpg";
+import AquionMexico from "../../public/images/aquion_mexico.jpg";
+import Shuttle from "../../public/images/shuttle.jpg";
 
 export const metadata = {
   title: "Case Studies | Solar PV Partners",
@@ -18,7 +23,7 @@ const CaseStudies = () => {
     <div className="container py-10 max-w-3xl mx-auto px-4">
       <h1 className="text-4xl font-bold mb-12">Case Studies</h1>
       <CaseStudyCard
-        image={"/images/sparsholt_college.jpg"}
+        image={Sparsholt}
         title={"Sparsholt College, UK 633kWp Installation"}
         subtitle={"Project Development & Finance"}
         description={`During 2015/2016, Solar PV Partners was the creator, architect, project facilitator and manager of the largest Solar PV installation at any UK educational establishment, Sparsholt College.  
@@ -28,7 +33,7 @@ const CaseStudies = () => {
           Sparsholt College has saved over 1,000 tons of CO2 emissions from the use of their Solar PV systems over the past 3 years, the equivalent of planting more than 20,000 trees.`}
       />
       <CaseStudyCard
-        image={"/images/total.png"}
+        image={Total}
         title={
           "Total Oil Petrol Stations in Nigeria convert to Solar + Storage"
         }
@@ -43,7 +48,7 @@ const CaseStudies = () => {
           `}
       />
       <CaseStudyCard
-        image={"/images/winchester_simpliphi.jpg"}
+        image={WinchesterSimpliPhi}
         title={
           "Lithium Iron Phosphate Residential Installation Winchester, First SimpliPhi Power UK Installation"
         }
@@ -55,7 +60,7 @@ const CaseStudies = () => {
           LiFePO4 (LFP) Lithium Iron Phosphate batteries are one of the very safest,  long life energy storage solutions.`}
       />
       <CaseStudyCard
-        image={"/images/aquion_mexico.jpg"}
+        image={AquionMexico}
         title={"Consultation and Energy Storage Supply Cabo San Lucas , Mexico"}
         subtitle={
           "Solar + Storage in Executive Estate On-Grid/Off-Grid 4th Quarter 2016"
@@ -65,7 +70,7 @@ const CaseStudies = () => {
           Francisco Vargas, Operations Director of Innovacion Solar said, “Our customer wanted the latest and cleanest energy storage system available. We worked with Solar PV Partners to configure the system specifications and are delighted with the performance of the Aquion Aspen batteries. We will now be looking to incorporate Aquion batteries for our projects going forward.”`}
       />
       <CaseStudyCard
-        image={"/images/shuttle.jpg"}
+        image={Shuttle}
         title={"Eurotunnel Motorway Sign"}
         subtitle={"Solar + Storage Off-Grid"}
         description={`Aquion Lights the way to Europe!  
