@@ -3,18 +3,32 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import LogoHorizontal from "../../public/images/logo_horizontal.png";
-const Links = ({ className }: { className?: string }) => {
+const Links = ({
+  className,
+  onClose,
+}: {
+  className?: string;
+  onClose?: () => void;
+}) => {
   return (
     <ul
       className={`flex flex-col md:flex-row items-center md:items-center space-y-2 md:space-y-0 md:space-x-4 px-5 py-2 ${className}`}
     >
       <li>
-        <Link className="text-gray-500 hover:text-gray-700" href="/solutions">
+        <Link
+          className="text-gray-500 hover:text-gray-700"
+          href="/solutions"
+          onClick={onClose}
+        >
           Solutions
         </Link>
       </li>
       <li>
-        <Link className="text-gray-500 hover:text-gray-700" href="/products">
+        <Link
+          className="text-gray-500 hover:text-gray-700"
+          href="/products"
+          onClick={onClose}
+        >
           Products
         </Link>
       </li>
@@ -22,17 +36,26 @@ const Links = ({ className }: { className?: string }) => {
         <Link
           className="text-gray-500 hover:text-gray-700"
           href="/case-studies"
+          onClick={onClose}
         >
           Case Studies
         </Link>
       </li>
       <li>
-        <Link className="text-gray-500 hover:text-gray-700" href="/about">
+        <Link
+          className="text-gray-500 hover:text-gray-700"
+          href="/about"
+          onClick={onClose}
+        >
           About
         </Link>
       </li>
       <li>
-        <Link className="text-gray-500 hover:text-gray-700" href="/contact">
+        <Link
+          className="text-gray-500 hover:text-gray-700"
+          href="/contact"
+          onClick={onClose}
+        >
           Contact
         </Link>
       </li>
@@ -98,7 +121,7 @@ const Navi: React.FC = () => {
         className={`${isOpen ? "block" : "hidden"} `}
         id="navbarSupportedContent"
       >
-        <Links />
+        <Links onClose={() => setIsOpen(false)} />
       </div>
     </nav>
   );
