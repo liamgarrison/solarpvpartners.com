@@ -11,6 +11,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(`https://${process.env.VERCEL_URL}`),
   openGraph: {
     title: "Solar PV Partners",
+    siteName: "Solar PV Partners",
     description: "Solar PV Partners",
     images: [
       {
