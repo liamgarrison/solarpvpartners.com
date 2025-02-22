@@ -8,7 +8,7 @@ const lato = Lato({ weight: ["400", "700"], subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Solar PV Partners",
   description: "Solar PV Partners",
-  metadataBase: new URL("https://www.solarpvpartners.com"),
+  metadataBase: new URL(`https://${process.env.VERCEL_URL}`),
   openGraph: {
     title: "Solar PV Partners",
     description: "Solar PV Partners",
