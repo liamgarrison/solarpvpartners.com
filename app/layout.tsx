@@ -6,6 +6,7 @@ import Footer from "@/components/footer";
 export const metadata: Metadata = {
   title: "Solar PV Partners",
   description: "Solar PV Partners",
+  metadataBase: new URL("https://www.solarpvpartners.com"),
   openGraph: {
     title: "Solar PV Partners",
     description: "Solar PV Partners",

@@ -1,6 +1,8 @@
 import React from "react";
 import ProductCard from "../../components/ProductCard";
 import Image from "next/image";
+import MultiSourcePower from "../../public/images/flex-ess.jpg";
+import ProductCloud from "../../public/images/product_cloud.png";
 
 export const metadata = {
   title: "Products | Solar PV Partners",
@@ -23,6 +25,12 @@ const Products = () => {
       <h2 className="text-2xl font-bold mb-4">
         Made in Britain Energy Storage Systems
       </h2>
+
+      <Image
+        src={MultiSourcePower}
+        alt="Multi Source Power"
+        className="w-full object-cover h-[350px] mb-8"
+      />
       <p className="mb-8">
         Solar PV Partners work with Multi Source Power’s team of experts to
         design, build, and deliver Battery Energy Storage Systems for both on
@@ -265,15 +273,11 @@ const Products = () => {
         <li>Easy to update online or via USB drive</li>
         <li>Free Upgrades for Life of System</li>
       </ul>
-      <div className="h-[300px] relative mb-12">
-        <Image
-          className="w-full h-auto object-contain"
-          src={"/images/product_cloud.png"}
-          alt="Cloud"
-          fill
-          unoptimized
-        />
-      </div>
+      <Image
+        className="h-[300px] object-contain mb-8"
+        src={ProductCloud}
+        alt="Cloud"
+      />
       <h3 className="text-xl font-bold mb-4">
         Industrial Batteries Regulation
       </h3>
