@@ -49,8 +49,9 @@ const Contact = () => {
         </div>
         <Image
           src={Dennis}
+          placeholder="blur"
           alt="Dennis Garrison"
-          className="rounded-md object-cover h-[200px] w-full sm:w-1/2 relative sm:h-auto"
+          className="object-cover h-[200px] w-full sm:w-1/2 relative sm:h-auto"
         />
       </div>
     </div>
