@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Navi from "@/components/navi";
 import Footer from "@/components/footer";
+import { Lato } from "next/font/google";
+const lato = Lato({ weight: ["400", "700"], subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Solar PV Partners",
@@ -27,7 +29,9 @@ export default function RootLayout({
     <html lang="en">
       <body className={`antialiased min-h-screen flex flex-col`}>
         <Navi />
-        <main className="h-full w-full flex-grow">{children}</main>
+        <main className={`${lato.className} h-full w-full flex-grow`}>
+          {children}
+        </main>
         <Footer />
       </body>
     </html>
