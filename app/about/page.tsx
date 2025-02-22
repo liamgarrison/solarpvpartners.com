@@ -1,7 +1,8 @@
 import React from "react";
 import AboutCard from "../../components/AboutCard";
 import Image from "next/image";
-
+import Sparsholt from "../../public/images/sparsholt_college.jpg";
+import BatterySolarWind from "../../public/images/battery_solar_wind.png";
 export const metadata = {
   title: "About | Solar PV Partners",
   description:
@@ -25,14 +26,11 @@ const About = () => {
         non-toxic battery technology solutions with Solar PV systems, for both
         on-grid and off-grid locations.
       </p>
-      <div className="relative w-full h-[350px] mb-8">
-        <Image
-          className="w-full h-full object-cover"
-          src={"/images/sparsholt_college.jpg"}
-          alt="Sparsholt College"
-          fill
-        />
-      </div>
+      <Image
+        className="w-full h-[350px] object-cover mb-8"
+        src={Sparsholt}
+        alt="Sparsholt College"
+      />
       <p className="mb-8">
         We initially started the journey in 2012 with the goal of providing
         commercial Solar PV systems to Colleges and local governments, which we
@@ -58,14 +56,11 @@ const About = () => {
         their reduced per kW hour rate of electricity through the Power Purchase
         Agreement arranged by SPVP.
       </p>
-      <div className="relative w-full h-[350px] mb-8">
-        <Image
-          src={"/images/battery_solar_wind.png"}
-          alt="Battery Solar Wind"
-          className="w-full h-full object-cover"
-          fill
-        />
-      </div>
+      <Image
+        className="w-full h-[350px] object-cover mb-8"
+        src={BatterySolarWind}
+        alt="Battery Solar Wind"
+      />
       <p className="mb-8">
         In 2017, Solar PV Partners installed the first SimpliPhi Power Lithium
         Iron Phosphate LiFePO4 battery/energy storage system in a Winchester, UK

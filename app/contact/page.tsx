@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import Dennis from "../../public/images/sparsholt_dennis.png";
 export const metadata = {
   title: "Contact | Solar PV Partners",
   description: "Contact Solar PV Partners for renewable energy solutions",
@@ -46,14 +47,11 @@ const Contact = () => {
             </Link>
           </p>
         </div>
-        <div className="w-full sm:w-1/2 relative h-[200px] sm:h-auto">
-          <Image
-            src={"/images/sparsholt_dennis.png"}
-            alt="Dennis Garrison"
-            fill
-            className="rounded-md object-cover"
-          />
-        </div>
+        <Image
+          src={Dennis}
+          alt="Dennis Garrison"
+          className="rounded-md object-cover h-[200px] w-full sm:w-1/2 relative sm:h-auto"
+        />
       </div>
     </div>
   );
