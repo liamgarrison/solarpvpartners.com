@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const Footer = () => (
   <footer className="bg-white shadow-sm border-t">
@@ -12,6 +12,6 @@ const Footer = () => (
       </p>
     </div>
   </footer>
-)
+);
 
-export default Footer
+export default Footer;

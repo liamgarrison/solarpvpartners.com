@@ -1,11 +1,11 @@
-import Image from 'next/image'
+import Image from "next/image";
 
 interface AboutCardProps {
-  image: string
-  title: string
-  subtitle: string
-  description: string
-  email?: string
+  image: string;
+  title: string;
+  subtitle: string;
+  description: string;
+  email?: string;
 }
 
 export default function AboutCard({
@@ -27,5 +27,5 @@ export default function AboutCard({
         </div>
       </div>
     </div>
-  )
+  );
 }

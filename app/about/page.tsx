@@ -1,12 +1,12 @@
-import React from 'react'
-import AboutCard from '../../components/AboutCard'
-import Image from 'next/image'
+import React from "react";
+import AboutCard from "../../components/AboutCard";
+import Image from "next/image";
 
 export const metadata = {
-  title: 'About | Solar PV Partners',
+  title: "About | Solar PV Partners",
   description:
-    'Learn about Solar PV Partners and our renewable energy solutions',
-}
+    "Learn about Solar PV Partners and our renewable energy solutions",
+};
 
 const About = () => {
   return (
@@ -28,7 +28,7 @@ const About = () => {
       <div className="relative w-full h-[350px] mb-8">
         <Image
           className="w-full h-full object-cover"
-          src={'/images/sparsholt_college.jpg'}
+          src={"/images/sparsholt_college.jpg"}
           alt="Sparsholt College"
           fill
         />
@@ -60,7 +60,7 @@ const About = () => {
       </p>
       <div className="relative w-full h-[350px] mb-8">
         <Image
-          src={'/images/battery_solar_wind.png'}
+          src={"/images/battery_solar_wind.png"}
           alt="Battery Solar Wind"
           className="w-full h-full object-cover"
           fill
@@ -99,31 +99,31 @@ const About = () => {
       </p>
       <h2 className="text-2xl font-bold mb-4 mt-12">Meet the team</h2>
       <AboutCard
-        image={'/images/dennis.jpg'}
-        title={'Dennis Garrison'}
-        subtitle={'Manging Director'}
+        image={"/images/dennis.jpg"}
+        title={"Dennis Garrison"}
+        subtitle={"Manging Director"}
         description={
-          'Dennis founded the company with partners in 2012 and has over 10 years experience in environmental technologies deployment in a dozen countries. He has extensive experience launching new businesses and numerous technologies Internationally in both the media communications and renewable energy sectors.'
+          "Dennis founded the company with partners in 2012 and has over 10 years experience in environmental technologies deployment in a dozen countries. He has extensive experience launching new businesses and numerous technologies Internationally in both the media communications and renewable energy sectors."
         }
       />
       <AboutCard
-        image={'/images/andy.png'}
-        title={'Andy Rigg'}
-        subtitle={'Founder'}
+        image={"/images/andy.png"}
+        title={"Andy Rigg"}
+        subtitle={"Founder"}
         description={
-          'Andy is one of the original founders of Solar PV Partners, a Hampshire farm owner generating almost all energy requirements from solar plus storage and has been involved in sustainability for over 28 years.'
+          "Andy is one of the original founders of Solar PV Partners, a Hampshire farm owner generating almost all energy requirements from solar plus storage and has been involved in sustainability for over 28 years."
         }
       />
       <AboutCard
-        image={'/images/liam.jpeg'}
-        title={'Liam Garrison'}
-        subtitle={'IT and Energy Analyst'}
+        image={"/images/liam.jpeg"}
+        title={"Liam Garrison"}
+        subtitle={"IT and Energy Analyst"}
         description={
-          'Liam is a data analyst who majored in chemistry at Oxford University and has assisted several businesses in improving business processes, including the NHS. He is an ardent photographer, environmentalist and mountain climber.'
+          "Liam is a data analyst who majored in chemistry at Oxford University and has assisted several businesses in improving business processes, including the NHS. He is an ardent photographer, environmentalist and mountain climber."
         }
       />
     </div>
-  )
-}
+  );
+};
 
-export default About
+export default About;

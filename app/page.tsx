@@ -1,24 +1,24 @@
-import Image from 'next/image'
-import Link from 'next/link'
+import Image from "next/image";
+import Link from "next/link";
 
 export const metadata = {
-  title: 'Solar PV Partners',
-  description: 'Take control of your energy costs with Solar PV Partners',
+  title: "Solar PV Partners",
+  description: "Take control of your energy costs with Solar PV Partners",
   openGraph: {
-    title: 'Solar PV Partners',
-    description: 'Take control of your energy costs with Solar PV Partners',
-    images: [{ url: '/images/logo_horizontal.png' }],
+    title: "Solar PV Partners",
+    description: "Take control of your energy costs with Solar PV Partners",
+    images: [{ url: "/images/logo_horizontal.png" }],
   },
-}
+};
 
 export default function HomePage() {
   return (
     <div className="h-screen w-full relative">
       <Image
-        src={'/images/home_image_2.jpg'}
+        src={"/images/home_image_2.jpg"}
         alt="Solar PV Background"
         fill
-        className="object-cover "
+        className="object-cover"
         priority
       />
       <div className="absolute inset-0 bg-black/50">
@@ -40,5 +40,5 @@ export default function HomePage() {
         </div>
       </div>
     </div>
-  )
+  );
 }

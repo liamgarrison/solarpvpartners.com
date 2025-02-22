@@ -1,11 +1,11 @@
-import React from 'react'
-import Image from 'next/image'
+import React from "react";
+import Image from "next/image";
 interface ProductCardProps {
-  image: string
-  title: string
-  subtitle: string
-  specSheet?: string
-  children: React.ReactNode
+  image: string;
+  title: string;
+  subtitle: string;
+  specSheet?: string;
+  children: React.ReactNode;
 }
 
 const ProductCard = ({
@@ -42,7 +42,7 @@ const ProductCard = ({
         ) : null}
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default ProductCard
+export default ProductCard;

@@ -1,18 +1,18 @@
-import React from 'react'
-import ProductCard from '../../components/ProductCard'
-import Image from 'next/image'
+import React from "react";
+import ProductCard from "../../components/ProductCard";
+import Image from "next/image";
 
 export const metadata = {
-  title: 'Products | Solar PV Partners',
+  title: "Products | Solar PV Partners",
   description:
-    'Explore our range of products and solutions for renewable energy',
+    "Explore our range of products and solutions for renewable energy",
   openGraph: {
-    title: 'Products | Solar PV Partners',
+    title: "Products | Solar PV Partners",
     description:
-      'Explore our range of products and solutions for renewable energy',
-    images: [{ url: '/images/logo_horizontal.png' }],
+      "Explore our range of products and solutions for renewable energy",
+    images: [{ url: "/images/logo_horizontal.png" }],
   },
-}
+};
 
 const Products = () => {
   return (
@@ -53,9 +53,9 @@ const Products = () => {
       </p>
 
       <ProductCard
-        image={'/images/flex-ess-250.png'}
-        title={'Flex-ESS250'}
-        subtitle={'The most flexible all-in-one energy storage solution'}
+        image={"/images/flex-ess-250.png"}
+        title={"Flex-ESS250"}
+        subtitle={"The most flexible all-in-one energy storage solution"}
       >
         <p className="mb-4">
           The Flex-ESS250 hybrid power system is a high-density, modular energy
@@ -78,9 +78,9 @@ const Products = () => {
       </ProductCard>
 
       <ProductCard
-        image={'/images/flex-ess-500.png'}
-        title={'Flex-ESS500'}
-        subtitle={'Engineered for low project overheads'}
+        image={"/images/flex-ess-500.png"}
+        title={"Flex-ESS500"}
+        subtitle={"Engineered for low project overheads"}
       >
         <p className="mb-4">
           Flex-ESS500 provides a plug-and-play, factory built-and-tested energy
@@ -113,9 +113,9 @@ const Products = () => {
       </ProductCard>
 
       <ProductCard
-        image={'/images/flex-ess-1000.png'}
-        title={'Flex-ESS1000'}
-        subtitle={'Utility-Scale Modular Storage System'}
+        image={"/images/flex-ess-1000.png"}
+        title={"Flex-ESS1000"}
+        subtitle={"Utility-Scale Modular Storage System"}
       >
         <ul className="list-disc list-outside mb-4 pl-4">
           <li>1Hr to 4Hrs + storage capability</li>
@@ -146,7 +146,7 @@ const Products = () => {
       <div className="flex justify-start gap-4 my-4">
         <div className="relative w-10 h-10">
           <Image
-            src={'/images/ce_logo.png'}
+            src={"/images/ce_logo.png"}
             alt="CE Logo"
             fill
             className="object-contain"
@@ -155,7 +155,7 @@ const Products = () => {
         </div>
         <div className="relative w-10 h-10">
           <Image
-            src={'/images/iec_logo.png'}
+            src={"/images/iec_logo.png"}
             alt="IEC Logo"
             fill
             className="object-contain"
@@ -164,11 +164,11 @@ const Products = () => {
         </div>
       </div>
       <ProductCard
-        image={'/images/storion_smile_5.png'}
-        title={'Storion SMILE 5'}
-        subtitle={'Residential, Commercial'}
+        image={"/images/storion_smile_5.png"}
+        title={"Storion SMILE 5"}
+        subtitle={"Residential, Commercial"}
         specSheet={
-          'https://www.alpha-ess.com/Upload/Images/20190902054742_276149.pdf'
+          "https://www.alpha-ess.com/Upload/Images/20190902054742_276149.pdf"
         }
       >
         <p className="mb-4">
@@ -194,11 +194,11 @@ const Products = () => {
         </ul>
       </ProductCard>
       <ProductCard
-        image={'/images/storion_eco_es5.png'}
-        title={'Storion Eco-S5'}
-        subtitle={'Commercial'}
+        image={"/images/storion_eco_es5.png"}
+        title={"Storion Eco-S5"}
+        subtitle={"Commercial"}
         specSheet={
-          'https://www.alpha-ess.com/Upload/Images/20180525095118_228575.pdf'
+          "https://www.alpha-ess.com/Upload/Images/20180525095118_228575.pdf"
         }
       >
         <p className="mb-4">
@@ -221,9 +221,9 @@ const Products = () => {
         </p>
       </ProductCard>
       <ProductCard
-        image={'/images/commercial_ess.png'}
-        title={'Storion-T30/T50/T100'}
-        subtitle={'Commercial, Industrial '}
+        image={"/images/commercial_ess.png"}
+        title={"Storion-T30/T50/T100"}
+        subtitle={"Commercial, Industrial "}
       >
         <ul className="list-disc list-outside mb-4 pl-4">
           <li>Output 30 / 50 / 100 kW Max. Capacity 1032.2 kWh</li>
@@ -237,9 +237,9 @@ const Products = () => {
         </ul>
       </ProductCard>
       <ProductCard
-        image={'/images/alpha_container.jpg'}
-        title={'Containerised energy storage solutions  '}
-        subtitle={'Industrial, Utility, On-Grid and Off-Grid  '}
+        image={"/images/alpha_container.jpg"}
+        title={"Containerised energy storage solutions  "}
+        subtitle={"Industrial, Utility, On-Grid and Off-Grid  "}
       >
         <p className="mb-4">
           AlphaESS also enable communities and companies with multiple
@@ -268,7 +268,7 @@ const Products = () => {
       <div className="h-[300px] relative mb-12">
         <Image
           className="w-full h-auto object-contain"
-          src={'/images/product_cloud.png'}
+          src={"/images/product_cloud.png"}
           alt="Cloud"
           fill
           unoptimized
@@ -288,10 +288,10 @@ const Products = () => {
         other end users, require us to take back Industrial batteries, they
         should contact us at recycle@solarpvpartners.com. We will assist in the
         necessary arrangements for the return, proper treatment and recycling of
-        the waste industrial batteries.{' '}
+        the waste industrial batteries.{" "}
       </p>
     </div>
-  )
-}
+  );
+};
 
-export default Products
+export default Products;

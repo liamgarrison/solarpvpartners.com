@@ -1,15 +1,15 @@
-import React from 'react'
-import Image from 'next/image'
-import Link from 'next/link'
+import React from "react";
+import Image from "next/image";
+import Link from "next/link";
 export const metadata = {
-  title: 'Contact | Solar PV Partners',
-  description: 'Contact Solar PV Partners for renewable energy solutions',
+  title: "Contact | Solar PV Partners",
+  description: "Contact Solar PV Partners for renewable energy solutions",
   openGraph: {
-    title: 'Contact | Solar PV Partners',
-    description: 'Contact Solar PV Partners for renewable energy solutions',
-    images: [{ url: '/images/logo_horizontal.png' }],
+    title: "Contact | Solar PV Partners",
+    description: "Contact Solar PV Partners for renewable energy solutions",
+    images: [{ url: "/images/logo_horizontal.png" }],
   },
-}
+};
 
 const Contact = () => {
   return (
@@ -48,7 +48,7 @@ const Contact = () => {
         </div>
         <div className="w-full sm:w-1/2 relative h-[200px] sm:h-auto">
           <Image
-            src={'/images/sparsholt_dennis.png'}
+            src={"/images/sparsholt_dennis.png"}
             alt="Dennis Garrison"
             fill
             className="rounded-md object-cover"
@@ -56,7 +56,7 @@ const Contact = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Contact
+export default Contact;

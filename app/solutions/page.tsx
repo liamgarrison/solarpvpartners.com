@@ -1,16 +1,16 @@
-import React from 'react'
-import Image from 'next/image'
-import Link from 'next/link'
+import React from "react";
+import Image from "next/image";
+import Link from "next/link";
 
 export const metadata = {
-  title: 'Our Solutions',
-  description: 'Our Solutions',
+  title: "Our Solutions",
+  description: "Our Solutions",
   openGraph: {
-    title: 'Our Solutions',
-    description: 'Our Solutions',
-    images: [{ url: '/images/logo_horizontal.png' }],
+    title: "Our Solutions",
+    description: "Our Solutions",
+    images: [{ url: "/images/logo_horizontal.png" }],
   },
-}
+};
 
 const Solutions = () => {
   return (
@@ -19,7 +19,7 @@ const Solutions = () => {
       <div className="flex flex-col sm:flex-row-reverse sm:-space-x-8 space-y-8 sm:space-y-0 items-stretch  mb-16">
         <div className="w-full sm:w-1/2 h-full relative min-h-[200px]">
           <Image
-            src={'/images/project_management.jpg'}
+            src={"/images/project_management.jpg"}
             alt="Project Management"
             fill
             className="object-cover"
@@ -32,10 +32,10 @@ const Solutions = () => {
           <p className="mb-4">
             We facilitate Solar PV and ESS, energy storage systems finance,
             which are available for UK, European, African and other
-            International projects.{' '}
+            International projects.{" "}
           </p>
           <Link
-            href={'/case-studies'}
+            href={"/case-studies"}
             className="bg-orange-500 text-white px-6 py-3 rounded-md hover:bg-orange-600 transition-colors inline-block"
           >
             View Case Studies
@@ -45,7 +45,7 @@ const Solutions = () => {
       <div className="flex flex-col sm:flex-row sm:space-x-8 space-y-8 sm:space-y-0 items-stretch  mb-16">
         <div className="w-full sm:w-1/2 relative min-h-[200px]">
           <Image
-            src={'/images/peak_solar.jpg'}
+            src={"/images/peak_solar.jpg"}
             alt="Peak Solar"
             fill
             className="object-cover"
@@ -61,7 +61,7 @@ const Solutions = () => {
             financial benefits.
           </p>
           <Link
-            href={'/products'}
+            href={"/products"}
             className="bg-orange-500 text-white px-6 py-3 rounded-md hover:bg-orange-600 transition-colors inline-block"
           >
             View ESS Products
@@ -71,7 +71,7 @@ const Solutions = () => {
       <div className="flex flex-col sm:flex-row-reverse sm:-space-x-8 space-y-8 sm:space-y-0 items-stretch mb-16">
         <div className="w-full sm:w-1/2 relative min-h-[200px]">
           <Image
-            src={'/images/power_lines.jpg'}
+            src={"/images/power_lines.jpg"}
             alt="Power Lines"
             fill
             className="object-cover"
@@ -84,14 +84,14 @@ const Solutions = () => {
           <p className="mb-4">
             Power outages are becoming more frequent and security of supply more
             important. The combination of renewable energy and storage we
-            provide gives a way to secure your supply. See benefits below{' '}
+            provide gives a way to secure your supply. See benefits below{" "}
           </p>
         </div>
       </div>
       <div className="flex flex-col sm:flex-row sm:space-x-8 space-y-8 sm:space-y-0 items-stretch mb-10">
         <div className="w-full sm:w-1/2 relative h-[200px]">
           <Image
-            src={'/images/car_home.jpg'}
+            src={"/images/car_home.jpg"}
             alt="Car Home"
             fill
             className="object-cover"
@@ -108,13 +108,13 @@ const Solutions = () => {
             power outages are becoming more frequent and security of supply more
             important. The combination of renewable energy generation and
             storage we provide help secure your supply and maximise use of your
-            power. See energy storage benefits below:{' '}
+            power. See energy storage benefits below:{" "}
           </p>
         </div>
       </div>
       <div className="flex justify-center">
         <Image
-          src={'/images/benefits.png'}
+          src={"/images/benefits.png"}
           alt="Benefits"
           className="shadow-sm w-[500px] object-contain"
           width={300}
@@ -122,7 +122,7 @@ const Solutions = () => {
         />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Solutions
+export default Solutions;

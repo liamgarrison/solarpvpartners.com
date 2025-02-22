@@ -1,11 +1,11 @@
-import React from 'react'
-import Image from 'next/image'
+import React from "react";
+import Image from "next/image";
 
 interface CaseStudyCardProps {
-  image: string
-  title: string
-  subtitle: string
-  description: string
+  image: string;
+  title: string;
+  subtitle: string;
+  description: string;
 }
 
 const CaseStudyCard: React.FC<CaseStudyCardProps> = ({
@@ -25,7 +25,7 @@ const CaseStudyCard: React.FC<CaseStudyCardProps> = ({
         <p className="text-gray-700">{description}</p>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default CaseStudyCard
+export default CaseStudyCard;

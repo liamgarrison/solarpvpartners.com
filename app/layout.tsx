@@ -1,26 +1,26 @@
-import type { Metadata } from 'next'
-import './globals.css'
-import Navi from '@/components/navi'
-import Footer from '@/components/footer'
+import type { Metadata } from "next";
+import "./globals.css";
+import Navi from "@/components/navi";
+import Footer from "@/components/footer";
 
 export const metadata: Metadata = {
-  title: 'Solar PV Partners',
-  description: 'Solar PV Partners',
+  title: "Solar PV Partners",
+  description: "Solar PV Partners",
   openGraph: {
-    title: 'Solar PV Partners',
-    description: 'Solar PV Partners',
+    title: "Solar PV Partners",
+    description: "Solar PV Partners",
     images: [
       {
-        url: '/images/logo_horizontal.png',
+        url: "/images/logo_horizontal.png",
       },
     ],
   },
-}
+};
 
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode
+  children: React.ReactNode;
 }>) {
   return (
     <html lang="en">
@@ -30,5 +30,5 @@ export default function RootLayout({
         <Footer />
       </body>
     </html>
-  )
+  );
 }

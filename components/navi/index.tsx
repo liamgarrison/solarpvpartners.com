@@ -1,7 +1,7 @@
-'use client'
-import React from 'react'
-import Link from 'next/link'
-import Image from 'next/image'
+"use client";
+import React from "react";
+import Link from "next/link";
+import Image from "next/image";
 
 const Links = ({ className }: { className?: string }) => {
   return (
@@ -37,18 +37,18 @@ const Links = ({ className }: { className?: string }) => {
         </Link>
       </li>
     </ul>
-  )
-}
+  );
+};
 
 const Navi: React.FC = () => {
-  const [isOpen, setIsOpen] = React.useState(false)
+  const [isOpen, setIsOpen] = React.useState(false);
 
   return (
     <nav className="bg-white shadow-sm relative">
       <div className="flex items-center justify-between pl-6 pr-2 py-2 ">
         <Link href="/" className="mb-0">
           <Image
-            src={'/images/logo_horizontal.png'}
+            src={"/images/logo_horizontal.png"}
             alt="Logo"
             height={44}
             width={180}
@@ -101,13 +101,13 @@ const Navi: React.FC = () => {
       </div>
 
       <div
-        className={`${isOpen ? 'block' : 'hidden'} `}
+        className={`${isOpen ? "block" : "hidden"} `}
         id="navbarSupportedContent"
       >
         <Links />
       </div>
     </nav>
-  )
-}
+  );
+};
 
-export default Navi
+export default Navi;
