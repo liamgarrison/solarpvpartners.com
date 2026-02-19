@@ -5,6 +5,8 @@ import Total from "../../public/images/total.png";
 import WinchesterSimpliPhi from "../../public/images/winchester_simpliphi.jpg";
 import AquionMexico from "../../public/images/aquion_mexico.jpg";
 import Shuttle from "../../public/images/shuttle.jpg";
+import NewCollegeSwindon from "../../public/images/new_college_swindon.jpg";
+import HattingleyWinery from "../../public/images/hattingley_winery_tripadvisor.jpg";
 
 export const metadata = {
   title: "Case Studies | Solar PV Partners",
@@ -22,6 +24,18 @@ const CaseStudies = () => {
   return (
     <div className="container py-10 max-w-3xl mx-auto px-4">
       <h1 className="text-4xl font-bold mb-12">Case Studies</h1>
+      <CaseStudyCard
+        image={HattingleyWinery}
+        title={"Hattingley Valley Wines and Hattingley Manor Farm"}
+        subtitle={"Solar + Storage planning in 2023, installation in March 2026"}
+        description={`Solar PV Partners were referred to Hattingley Winery in the summer of 2023 to review both the winery and the farm for the benefits of adding Solar and Energy Storage. Over the course of the next couple of years, numerous scenarios were reviewed, with installation beginning in March 2026 totalling 258kWp of solar and 95kWhr of battery storage. Financing was also arranged for the project.`}
+      />
+      <CaseStudyCard
+        image={NewCollegeSwindon}
+        title={"New College Swindon"}
+        subtitle={"Pre-vendor selection advisory, 2023"}
+        description={`New College Swindon added Solar PV rooftop panels in 2023. Solar PV Partners were contracted to provide pre-vendor selection advisory and participated in the vendor selection committee process to evaluate five different installation companies.`}
+      />
       <CaseStudyCard
         image={Sparsholt}
         title={"Sparsholt College, UK 633kWp Installation"}
